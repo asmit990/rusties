@@ -1,0 +1,22 @@
+&mut in the ios stdin is allowed to mutation 
+
+.expect("failed to read line");
+
+What is io::stdin()?
+io stands for input/output, and it's a module in Rust's standard library (std).
+stdin is a function in the io module that provides access to the standard input (keyboard input, in this case).
+
+
+What is .read_line()?
+The .read_line() method is used to read input from the user and store it into a string variable.
+
+It takes a mutable reference to a String (&mut guess) where it will store the input.
+When you type something and press Enter, .read_line() captures everything you typed (including the newline character \n) and appends it to the String.
+
+
+
+so the rust takes the \n value too if we ddint take the trim 
+.trim()
+
+
+match is like switch ;
